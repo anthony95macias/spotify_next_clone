@@ -9,3 +9,9 @@ body,
   background-color: black;
   color-scheme: dark;
 }
+
+@media (max-width: 768px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
